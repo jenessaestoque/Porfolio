@@ -1,0 +1,208 @@
+/* global setting */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: 1.4;
+}
+/* global style */
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    
+}
+/* main nav */
+#main-nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background:#322D37;
+    color: #fff;
+    justify-content: flex-end;
+    z-index: 1;
+    padding: 1rem 4rem;
+}
+#main-nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#main-nav ul li a{
+    
+    color: aliceblue;
+    padding: 0.75rem;   
+    margin:0 0.025rem;
+    
+}
+#main-nav ul li a:hover{
+    background: rgb(225, 225, 225, 0.4);
+     color:#F5AA1D;
+}
+/* end of nav */
+/* header */
+ .container{
+        overflow: auto; 
+}
+
+#showcase {
+    background: url("../css/image/bgHome.jpg") no-repeat center center/cover; 
+    height: 100vh; 
+    color: #fff;
+}
+.overlay{ 
+    background: rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 100vh;
+    z-index: 2;
+}   
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    padding-top: 20%;
+   
+}
+#showcase .showcase-content h3{ 
+    background: #322D37;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 100px;
+    margin-left: 0px;
+    width: 500px; 
+    text-align: left; 
+    align-self: flex-end;
+    font-size: 25px;
+} 
+#showcase .showcase-content h1{
+    background: #ece3f5;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 100px;
+    margin-top: 10px; 
+    margin-left: 10px;
+    width: 550px; 
+    text-align: left; 
+    font-size: 80px;
+    align-self: flex-end;
+} 
+#showcase .showcase-content p{ 
+    background: #F5AA1D;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-top: 10px; 
+    margin-left: 5px;
+    width: 650px; 
+    text-align: left; 
+    align-self: flex-end;
+    font-size: large;
+} 
+/* hero */
+.container-1{
+    margin: auto;  
+    max-width: 1100px;  
+    overflow: auto; 
+    padding: 0 20px;  
+}
+#hero .hero-content{
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 300px;
+        padding: 0 6rem;
+     /* background: rgb(88, 88, 2); */
+}
+#hero .hero-content h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    padding: auto;
+    
+}
+/* Porfolio Section */
+#portfolio h2{
+    background: #322D37;
+    color: #fff;
+    padding: 10px 50px;
+    margin-left: 0px;
+    width: 500px; 
+    text-align: right; 
+    align-self: flex-end;
+    font-size: 25px;
+
+}
+#portfolio .image img{
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+    /* float: left;  */
+    margin-right: 20px; 
+    border-radius: 50%;
+    /* margin-bottom: 10px;  */
+    
+}
+#portfolio .image{
+    background: #e9e9e4;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    float: left;
+    width: 33.3%;
+    overflow: hidden;
+    text-align: justify;  
+    padding: 20px 30px;   
+}
+#portfolio .image h3{
+    width: 60%;
+    text-align: right;
+    margin-bottom: 10px;
+    border-radius: 1.2em;
+}
+#portfolio  a.c-btn{
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(17, 17, 17);
+    background: #F5AA1D;
+    padding: 13px 10px;
+    width: 30%;
+    border-radius: 1em;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+    align-self: center;
+}
+#portfolio a.c-btn:hover{
+    color: #fcf8f4;
+}
+/* footer */
+#footer{
+    display: flex;
+    position: sticky;
+    background:#322D37;
+    color: #fff;
+    flex-direction: row;
+     justify-content: space-between; 
+    /* z-index: 1; */
+    padding: 1.2rem 4rem;
+}
+#footer .h2{
+    font-size: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
+}
+#footer i{
+    color:#F5AA1D ;
+}   
+    
+
+
