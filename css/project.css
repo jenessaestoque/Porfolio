@@ -1,0 +1,65 @@
+ /* project section */
+   #project .lead-head {
+       padding-top: 50px;
+       padding-left: 50px;
+       color:#F5AA1D;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-size:3rem;
+       line-height: 1em;
+   }
+   #project .lead-sub {
+       padding-left: 50px;
+       color:#F5AA1D;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-size: 2rem;
+   }
+   #project .title {
+       padding-left: 50px;
+       padding-top: 10px;
+       color: #fff;
+       font-family:Arial, Helvetica, sans-serif
+   }
+   #project .container {
+       padding-left: 50px;
+       flex:content;
+       height: 100%;
+       width: 50%;
+       background-color: #322D37
+   }
+   #project .lead-sub {
+       padding-left: 50px;
+       padding-top: 60px;
+   }
+
+   .container .body {
+       padding: 50px;
+       color: #fff;
+       text-align: justify;
+   }
+
+   .gallery {
+       width: 550px;
+       display: flex;
+       flex-direction:column;
+       float: left;
+       justify-content:space-evenly;
+       clear: left;
+       position: absolute;
+       overflow: hidden;
+       align-content: flex-end;
+   }
+   .col {
+    display: flex;
+    float: right;
+    height: 400px;
+    width: 500px;
+    padding: 5px;
+    align-content: flex-end;
+  }
+ 
+  .col img {
+     display:flex;
+     flex-direction: right;
+     align-content: flex-end;
+     
+  }
